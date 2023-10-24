@@ -13,6 +13,13 @@ header{
     top:0;
     z-index: 1;
 }
+footer{
+    background-color:#1A1A1A;
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+
+}
 .container{
     max-width: 1200px;
     padding: 10px;
@@ -24,7 +31,7 @@ header{
 
 .contain{
     padding: 5px;
-    max-width: 100%;
+    width: 100%;
 }
 
 .foto{
@@ -32,6 +39,11 @@ header{
  position: relative;
 }
 .row-h{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row-f{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -55,6 +67,11 @@ header{
 .col-50{
     width: 50%;
     justify-content: center;
+}
+
+.col-100{
+    width: 100%;
+    justify-content: space-between;
 }
 
 .d-flex{
@@ -92,6 +109,12 @@ i{
 }
 .j-end{
     justify-content: end;
+}
+.j-bet{
+    justify-content: space-between;
+}
+.j-cen{
+    justify-content: center;
 }
 
 .foto> img{
@@ -167,4 +190,13 @@ i{
 
 .foto:hover .second{
     display: block;
+}
+.contain > p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.font{
+    font-size: 15px;
+    font-weight: 200;
 }
