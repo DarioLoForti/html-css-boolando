@@ -9,8 +9,9 @@ body{
 header{
     background-color: #FF6900;
     width: 100%;
-    /* position: fixed;
-    z-index: 1; */
+    position: fixed;
+    top:0;
+    z-index: 1;
 }
 .container{
     max-width: 1200px;
@@ -18,7 +19,7 @@ header{
     margin: 0 auto;
 }
 .m-30{
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .contain{
@@ -134,4 +135,36 @@ i{
 #p-right{
     left: 0;
     bottom: 90px;
+}
+.heart{
+    background-color: white;
+    position: absolute;
+    top:10px;
+    right: 0;
+    padding: 0 10px;
+    font-size: 30px;
+    display: block;
+}
+.hearts{
+    background-color: white;
+    color: red;
+    position: absolute;
+    top:10px;
+    right: 0;
+    padding: 0 10px;
+    font-size: 30px;
+    display: none;
+}
+.fisrt{
+    display: block;
+}
+.second{
+    display: none;
+}
+.foto:hover .first{
+    display: none;
+}
+
+.foto:hover .second{
+    display: block;
 }
