@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: #FF6900;
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 1;
+}
+footer{
+    background-color:#1A1A1A;
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.container{
+    max-width: 1200px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.m-30{
+    margin-top: 100px;
+}
+
+.contain{
+    padding: 5px;
+    width: 100%;
+}
+
+.foto{
+ max-width: 100%;
+ position: relative;
+}
+.row-h{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row-f{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.col-25{
+    width: 25%;
+}
+
+.col-33{
+    width: calc(100% / 3 - 20);
+}
+
+.col-50{
+    width: 50%;
+    justify-content: center;
+}
+
+.col-100{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.border{
+    border: 1px solid black;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+
+li{
+   color: white; 
+   font-weight: 500;
+   padding: 10px;
+}
+
+.contain> img{
+    height: 25px;
+    vertical-align: middle;
+    align-self: center;
+}
+.color{
+    color: white;
+}
+
+i{
+    padding: 0 5px;
+    vertical-align: middle;
+}
+.j-end{
+    justify-content: end;
+}
+.j-bet{
+    justify-content: space-between;
+}
+.j-cen{
+    justify-content: center;
+}
+
+.foto> img{
+    width: 350px;
+}
+
+.product{
+    font-size: 15px;
+    font-weight: bold;
+}
+.price{
+    color: red;
+    font-weight: 700;
+}
+.d-price{
+    color: black;
+    text-decoration: line-through;
+}
+
+.discount{
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    padding: 5px 7px;
+    font-weight: 500;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.p-right{
+    left: 50px;
+    bottom: 90px;
+}
+.p-left{
+    left: 0;
+    bottom: 90px;
+}
+#p-right{
+    left: 0;
+    bottom: 90px;
+}
+.heart{
+    background-color: white;
+    position: absolute;
+    top:10px;
+    right: 0;
+    padding: 0 10px;
+    font-size: 30px;
+    display: block;
+}
+.hearts{
+    background-color: white;
+    color: red;
+    position: absolute;
+    top:10px;
+    right: 0;
+    padding: 0 10px;
+    font-size: 30px;
+    display: none;
+}
+.fisrt{
+    display: block;
+}
+.second{
+    display: none;
+}
+.foto:hover .first{
+    display: none;
+}
+
+.foto:hover .second{
+    display: block;
+}
+.foto:hover .heart{
+    display: none;
+}
+.foto:hover .hearts{
+    display: block;
+}
+.contain > p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.font{
+    font-size: 15px;
+    font-weight: 200;
+}
