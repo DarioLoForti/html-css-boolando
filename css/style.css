@@ -38,24 +38,15 @@ footer{
  max-width: 100%;
  position: relative;
 }
-.row-h{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.row-f{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
+
 .row{
     width: 100%;
-    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-
 }
+.gap{
+    gap: 20px;
+}
+
 .col-25{
     width: 25%;
 }
@@ -66,12 +57,10 @@ footer{
 
 .col-50{
     width: 50%;
-    justify-content: center;
 }
 
 .col-100{
     width: 100%;
-    justify-content: space-between;
 }
 
 .d-flex{
@@ -81,9 +70,9 @@ footer{
 .border{
     border: 1px solid black;
 }
+
 ul{
     list-style-type: none;
-    display: flex;
     justify-content: space-around;
     vertical-align: middle;
 }
@@ -115,6 +104,10 @@ i{
 }
 .j-cen{
     justify-content: center;
+}
+
+a.cen{
+    align-items: center;
 }
 
 .foto> img{
